@@ -1,6 +1,6 @@
 FROM gradle:jre11
 COPY ./application /home/gradle
-RUN ./gradlew build --debug
+RUN gradle build --debug
 RUN sleep 600
 
 
