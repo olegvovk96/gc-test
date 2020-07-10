@@ -11,4 +11,5 @@ docker push gcr.io/infra-cicd-279015/secret-pull-app
 # Applying K8S manifest 
 kubectl apply -f ./manifests/secret-pull-app.yaml
 
-
+# Workload identity activation
+./wi.sh
